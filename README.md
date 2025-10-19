@@ -64,12 +64,12 @@ The model achieves around: <ul>
 
 🚀**How to Run**
 
-Open the notebook in Google Colab:
-Run all cells (Runtime → Run all).
-The notebook will:
-Load and preprocess the MNIST dataset
-Train a CNN
-Display accuracy and a confusion matrix
+Open the notebook in Google Colab:<br>
+Run all cells (Runtime → Run all).<br>
+The notebook will:<br>
+Load and preprocess the MNIST dataset<br>
+Train a CNN<br>
+Display accuracy and a confusion matrix<br>
 
 📜**License**
 
