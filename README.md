@@ -3,17 +3,10 @@
 This project trains a simple Convolutional Neural Network (CNN) on the MNIST dataset to classify handwritten digits (0–9).
 It demonstrates the core steps of a deep learning workflow — from loading data and preprocessing to training, evaluating, and visualizing results.
 
-📚 **Libraries Used** <br>
-import numpy as np <br>
-import matplotlib.pyplot as plt <br>
-import seaborn as sns <br>
-import cv2 <br>
-from google.colab.patches import cv2_imshow <br>
-from PIL import Image <br>
-import tensorflow as tf <br>
-from tensorflow import keras <br>
-from keras.datasets import mnist <br>
-from tensorflow.math import confusion_matrix <br>
+💡 **Project Motivation**
+
+This project was created to strengthen my understanding of deep learning fundamentals and gain hands-on experience with TensorFlow and Keras.
+It serves as my first step toward exploring real-world AI applications, model evaluation, and interactive deployment of trained models.
 
 📂 **Project Structure** <br>
 ├── MNIST_training.ipynb     # Colab notebook containing all code and visualizations <br>
@@ -57,33 +50,25 @@ Evaluation Metric: Accuracy
 
 📈 **Results**
 
-The model achieves around:
-
-Training Accuracy: ~99%
-
-Test Accuracy: ~98%
+The model achieves around: <ul>
+<li>Training Accuracy: ~99% </li>
+<li>Test Accuracy: ~98% </li>
+</ul>
 
 *Visualizations include:*
-
-Sample digits from the dataset
-
-Confusion matrix heatmap
-
-Predictions on unseen data
+<ul>
+<li>Sample digits from the dataset</li>
+<li>Confusion matrix heatmap</li>
+<li>Predictions on unseen data</li>
+</ul>
 
 🚀**How to Run**
 
 Open the notebook in Google Colab:
-
-
 Run all cells (Runtime → Run all).
-
 The notebook will:
-
 Load and preprocess the MNIST dataset
-
 Train a CNN
-
 Display accuracy and a confusion matrix
 
 📜**License**
