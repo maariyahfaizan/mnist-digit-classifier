@@ -1,21 +1,21 @@
-🧠 MNIST Digit Classifier (TensorFlow + Keras)
+🧠 **MNIST Digit Classifier (TensorFlow + Keras)**
 
 This project trains a simple Convolutional Neural Network (CNN) on the MNIST dataset to classify handwritten digits (0–9).
 It demonstrates the core steps of a deep learning workflow — from loading data and preprocessing to training, evaluating, and visualizing results.
 
-📚 Libraries Used
-import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
-import cv2
-from google.colab.patches import cv2_imshow
-from PIL import Image
-import tensorflow as tf
-from tensorflow import keras
-from keras.datasets import mnist
-from tensorflow.math import confusion_matrix
+📚 **Libraries Used** <br>
+import numpy as np <br>
+import matplotlib.pyplot as plt <br>
+import seaborn as sns <br>
+import cv2 <br>
+from google.colab.patches import cv2_imshow <br>
+from PIL import Image <br>
+import tensorflow as tf <br>
+from tensorflow import keras <br>
+from keras.datasets import mnist <br>
+from tensorflow.math import confusion_matrix <br>
 
-📂 Project Structure <br>
+📂 **Project Structure** <br>
 ├── MNIST_training.ipynb     # Colab notebook containing all code and visualizations <br>
 ├── Sample_images            #images to test the model with <br>
 ├── README.md                # Project documentation<br>
@@ -43,7 +43,7 @@ Testing images: 10,000
 
 Image size: 28×28 pixels (grayscale)
 
-⚙️**Model Overview**
+⚙️ **Model Overview**
 
 Framework: TensorFlow / Keras
 
@@ -55,7 +55,7 @@ Optimizer: Adam
 
 Evaluation Metric: Accuracy
 
-📈**Results**
+📈 **Results**
 
 The model achieves around:
 
@@ -63,7 +63,7 @@ Training Accuracy: ~99%
 
 Test Accuracy: ~98%
 
-Visualizations include:
+*Visualizations include:*
 
 Sample digits from the dataset
 
