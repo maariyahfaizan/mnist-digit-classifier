@@ -15,12 +15,12 @@ from tensorflow import keras
 from keras.datasets import mnist
 from tensorflow.math import confusion_matrix
 
-📂 Project Structure
-├── MNIST_training.ipynb     # Colab notebook containing all code and visualizations
-├── Sample_images            #images to test the model with 
-├── README.md                # Project documentation
+📂 Project Structure <br>
+├── MNIST_training.ipynb     # Colab notebook containing all code and visualizations <br>
+├── Sample_images            #images to test the model with <br>
+├── README.md                # Project documentation<br>
 
-🧰 Requirements
+🧰 **Requirements**
 
 You can install all dependencies with:
 
@@ -29,7 +29,7 @@ pip install numpy matplotlib seaborn opencv-python pillow tensorflow
 
 If you’re using Google Colab, most libraries come preinstalled.
 
-🧩 Dataset
+🧩 **Dataset**
 
 The MNIST dataset is loaded directly from Keras:
 
@@ -43,7 +43,7 @@ Testing images: 10,000
 
 Image size: 28×28 pixels (grayscale)
 
-⚙️ Model Overview
+⚙️**Model Overview**
 
 Framework: TensorFlow / Keras
 
@@ -55,7 +55,7 @@ Optimizer: Adam
 
 Evaluation Metric: Accuracy
 
-📈 Results
+📈**Results**
 
 The model achieves around:
 
@@ -71,7 +71,7 @@ Confusion matrix heatmap
 
 Predictions on unseen data
 
-🚀 How to Run
+🚀**How to Run**
 
 Open the notebook in Google Colab:
 
@@ -84,16 +84,8 @@ Load and preprocess the MNIST dataset
 
 Train a CNN
 
-Display accuracy, loss plots, and a confusion matrix
+Display accuracy and a confusion matrix
 
-🧪 Example Output
-
-Predicted vs Actual digit comparison
-
-Confusion matrix of classification results
-
-Accuracy/Loss curves
-
-📜 License
+📜**License**
 
 This project is open-source under the MIT License.
