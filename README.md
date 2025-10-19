@@ -65,7 +65,7 @@ The model achieves around: <ul>
 🚀**How to Run**
 
 Open the notebook in Google Colab:<br>
-Run all cells (Runtime → Run all).<br>
+Run all cells (Runtime → Run all)<br>
 The notebook will:<br>
 Load and preprocess the MNIST dataset<br>
 Train a CNN<br>
