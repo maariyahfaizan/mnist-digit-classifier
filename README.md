@@ -10,7 +10,7 @@ It serves as my first step toward exploring real-world AI applications, model ev
 
 📂 **Project Structure** <br>
 ├── MNIST_training.ipynb     # Colab notebook containing all code and visualizations <br>
-├── Sample_images            #images to test the model with <br>
+├── Sample_images            # images to test the model with (to be added soon)<br>
 ├── README.md                # Project documentation<br>
 
 🧰 **Requirements**
